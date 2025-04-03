@@ -22,7 +22,7 @@ if (!(Test-Path $profilePath)) {
 }
 
 # Optional: Set a theme (replace 'themePath' with your preferred theme)
-$themePath = "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/darkblood.omp.json"
+$themePath = "https://raw.githubusercontent.com/TryingToLearnNewThings/Shell_Themes/refs/heads/main/Win-Powershell/oh-my-posh/darkblood-custom.omp.json"
 Add-Content -Path $profilePath -Value "oh-my-posh upgrade | oh-my-posh init pwsh --config '$themePath' | Invoke-Expression"
 
 Write-Host "PowerShell profile updated. Restart PowerShell to apply changes."
